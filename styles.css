@@ -96,23 +96,11 @@ background-color: #DEDEDE;
   font-size: 20px;
   color: #2F2325;
   box-shadow: 0 4px 1px #999;
-  margin-left: 310px;
+  margin-left: 355px;
 }
 .button:hover {background-color: #959595}
 
 .button:active {
   background-color: #959595;
   transform: translateY(4px);
-}
-
-
-.footer-text {
-  font-family: 'ezarion', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  letter-spacing: -0.5px;
-  color: #FFFFFF;
-
-
 }
