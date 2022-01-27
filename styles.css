@@ -85,6 +85,16 @@ letter-spacing: -0.5px;
 color: #959595;
 }
 
+.footer {
+  margin-top: 180px;
+  font-family: 'ezarion', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #DEDEDE;
+  margin-left: 380px;
+
+}
+
 .button {
 background-color: #DEDEDE;
   width: 140px;
@@ -97,10 +107,21 @@ background-color: #DEDEDE;
   color: #2F2325;
   box-shadow: 0 4px 1px #999;
   margin-left: 355px;
-}
-.button:hover {background-color: #959595}
-
-.button:active {
-  background-color: #959595;
-  transform: translateY(4px);
-}
+  -webkit-animation: glowing 1300ms infinite;
+        -moz-animation: glowing 1300ms infinite;
+        -o-animation: glowing 1300ms infinite;
+        animation: glowing 1300ms infinite;
+      }
+      @-webkit-keyframes glowing {
+        0% {
+          background-color: #db0922;
+          -webkit-box-shadow: 0 0 3px #db0922;
+        }
+        50% {
+          background-color: #fff;
+          -webkit-box-shadow: 0 0 15px #fff;
+        }
+        100% {
+          background-color: #db0922;
+          -webkit-box-shadow: 0 0 3px #db0922;
+        }
